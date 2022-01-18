@@ -6,6 +6,21 @@
   --secondary-background-color: #f5f4fa;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: var(--primary-white-color);
   color: var(--title-text-color);
@@ -20,8 +35,21 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  outline: 2px solid red;
 }
 
 .visually-hidden {
@@ -55,6 +83,9 @@ a {
 
 .heder {
   background-color: #ffffff;
+
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .heder-link {
   font-weight: 500;
@@ -92,6 +123,8 @@ a {
 
 .hero {
   background-color: #2f303a;
+
+  padding-top: 200px;
 }
 .hero-title {
   color: var(--primary-white-color);
@@ -103,9 +136,16 @@ a {
   letter-spacing: 0.06em;
 
   text-transform: uppercase;
+
+  padding-bottom: 30px;
 }
 
 /* Section */
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .team {
   background-color: #f5f4fa;
@@ -117,6 +157,8 @@ a {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+
+  margin-bottom: 10px;
 }
 
 .benefits-item {
@@ -137,6 +179,12 @@ a {
   letter-spacing: 0.03em;
 }
 
+/* Class */
+
+.class-list {
+  display: flex;
+}
+
 /* Team */
 
 .team-title {
@@ -146,6 +194,12 @@ a {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+  margin-bottom: 10px;
+}
+
+.team-item-content {
+  padding-top: 30px;
 }
 
 .team-caption {
@@ -178,6 +232,8 @@ a {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
+
+  margin-bottom: 200px;
 }
 
 .button.potfolio:hover,
@@ -187,6 +243,12 @@ a {
 }
 
 /* Portfolio */
+
+.portfolio-list-button {
+  display: flex;
+
+  margin-bottom: 34px;
+}
 
 .portfolio-title {
   font-weight: 700;
