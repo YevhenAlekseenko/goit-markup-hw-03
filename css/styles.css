@@ -91,36 +91,63 @@ a {
   padding-top: 24px;
   padding-bottom: 25px;
 }
+
 .heder-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+
 .heder-link:hover,
 .heder-link:focus {
   color: var(--accent-color);
 }
 
-/* Site-nav */
+.heder-nav-contacts + .heder-nav-contacts {
+  margin-left: 50px;
+}
 
-.site-nav .link {
+.heder-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.heder-nav-item + .heder-nav-item {
+  margin-left: 50px;
+}
+
+.heder-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--title-text-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.heder-nav .link:hover,
+.heder-nav .link:focus {
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.heder-nav .link.current {
   color: var(--accent-color);
+}
+
+/*cap-main*/
+
+.cap-main {
+  display: flex;
+  align-items: center;
 }
 
 /* Hero */
