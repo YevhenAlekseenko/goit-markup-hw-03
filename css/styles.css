@@ -68,6 +68,9 @@ a {
 /* logo */
 
 .logo {
+  padding-top: 25px;
+  padding-bottom: 24px;
+
   color: #000000;
   font-family: 'Raleway', cursive;
   font-weight: 700;
@@ -82,7 +85,8 @@ a {
 /* Heder */
 
 .navigation {
-  display: flexbox;
+  display: flex;
+  align-items: center;
 }
 
 .heder {
@@ -90,6 +94,11 @@ a {
 
   padding-top: 24px;
   padding-bottom: 25px;
+}
+
+.heder-container {
+  display: flex;
+  align-items: center;
 }
 
 .heder-link {
@@ -107,6 +116,10 @@ a {
 .heder-link:hover,
 .heder-link:focus {
   color: var(--accent-color);
+}
+
+.heder-contacts {
+  margin-left: auto;
 }
 
 .heder-nav-contacts + .heder-nav-contacts {
@@ -143,13 +156,6 @@ a {
   color: var(--accent-color);
 }
 
-/*cap-main*/
-
-.cap-main {
-  display: flex;
-  align-items: center;
-}
-
 /* Hero */
 
 .hero {
@@ -157,6 +163,7 @@ a {
 
   padding-top: 200px;
 }
+
 .hero-title {
   color: var(--primary-white-color);
 
@@ -180,6 +187,11 @@ a {
 
 .team {
   background-color: #f5f4fa;
+}
+
+.benefits-list {
+  display: flex;
+  margin-bottom: 10px;
 }
 
 .benefits-title {
