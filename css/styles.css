@@ -103,6 +103,7 @@ a {
 
 .heder-link {
   display: block;
+
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -161,6 +162,7 @@ a {
 .hero {
   background-color: #2f303a;
 
+  text-align: center;
   padding-top: 200px;
 }
 
@@ -175,7 +177,7 @@ a {
 
   text-transform: uppercase;
 
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 /* Section */
@@ -183,10 +185,6 @@ a {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.team {
-  background-color: #f5f4fa;
 }
 
 .benefits-list {
@@ -202,6 +200,7 @@ a {
   text-transform: uppercase;
 
   margin-bottom: 10px;
+  width: 270px;
 }
 
 .benefits-item {
@@ -210,6 +209,9 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  text-decoration: underline;
+  width: 270px;
 }
 
 .section-title {
@@ -228,9 +230,31 @@ a {
 
 .class-list {
   display: flex;
+  justify-content: space-between;
+}
+
+.class-img + .class-img {
+  margin-left: 30px;
 }
 
 /* Team */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
+.team-item {
+  width: calc(100% / 4 -30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
 
 .team-title {
   color: var(--title-text-color);
