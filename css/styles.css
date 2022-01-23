@@ -48,8 +48,6 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-
-  outline: 2px solid red;
 }
 
 .visually-hidden {
@@ -99,6 +97,8 @@ a {
 .heder-container {
   display: flex;
   align-items: center;
+
+  border: 1px solid #ececec;
 }
 
 .heder-link {
@@ -283,9 +283,16 @@ a {
 
 .team-item-content {
   padding-top: 30px;
+  text-align: center;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-caption {
+  padding-bottom: 30px;
+
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
@@ -333,6 +340,8 @@ a {
 /* Portfolio */
 
 .portfolio-container-button {
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio-container {
@@ -340,11 +349,22 @@ a {
   flex-wrap: wrap;
 }
 
+.portfolio-content {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
 .portfolio-list-button {
   display: flex;
 
   margin-bottom: 34px;
-  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.portfolio-item-button {
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-right: 8px;
 }
 
 .portfolio-list {
@@ -393,7 +413,15 @@ a {
 
 /* Footer */
 
+.footer-container {
+  display: block;
+}
+
 .footer-logo {
+  display: block;
+  padding-top: 60px;
+  margin-bottom: 20px;
+
   font-family: 'Raleway', cursive;
   font-weight: 700;
   font-size: 26px;
@@ -411,6 +439,10 @@ a {
 
 .address {
   font-style: normal;
+}
+
+.footer-item {
+  margin-bottom: 9px;
 }
 
 .footer-link-maps {

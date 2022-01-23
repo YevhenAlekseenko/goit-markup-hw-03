@@ -43,15 +43,15 @@
         <h1 class="visually-hidden">Страница portfolio</h1>
         <div class="container portfolio-container-button">
           <ul class="portfolio-list-button">
-            <li><button type="button" class="button potfolio">Все</button></li>
-            <li><button type="button" class="button potfolio">Веб-сайты</button></li>
-            <li><button type="button" class="button potfolio">Приложения</button></li>
-            <li><button type="button" class="button potfolio">Дизайн</button></li>
-            <li><button type="button" class="button potfolio">Маркетинг</button></li>
+            <li class="portfolio-item-button"><button type="button" class="button potfolio">Все</button></li>
+            <li class="portfolio-item-button"><button type="button" class="button potfolio">Веб-сайты</button></li>
+            <li class="portfolio-item-button"><button type="button" class="button potfolio">Приложения</button></li>
+            <li class="portfolio-item-button"><button type="button" class="button potfolio">Дизайн</button></li>
+            <li class="portfolio-item-button"><button type="button" class="button potfolio">Маркетинг</button></li>
           </ul>
         </div>
         <div class="container portfolio-container">
-        <ul class="portfolio-list">
+        <ul class="portfolio-list">       
           <li class="portfolio-item">
             <a href="">
               <img
@@ -64,7 +64,7 @@
               <h2 class="portfolio-title">Технокряк</h2>
               <p class="portfolio-caption">Веб-сайт</p>
             </a>
-          </li>
+          </li>      
           <li class="portfolio-item">
             <a href="">
               <img
@@ -79,7 +79,7 @@
               </h2>
               <p class="portfolio-caption">Дизайн</p>
             </a>
-          </li>
+          </li>         
           <li class="portfolio-item">
             <a href="">
               <img
@@ -92,7 +92,7 @@
               <h2 class="portfolio-title">Ресторан <span lang="en">Seafood</span></h2>
               <p class="portfolio-caption">Приложение</p>
             </a>
-          </li>
+          </li>         
           <li class="portfolio-item">
             <a href="">
               <img
@@ -105,7 +105,7 @@
               <h2 class="portfolio-title">Проект <span lang="en">Prime</span></h2>
               <p class="portfolio-caption">Маркетинг</p>
             </a>
-          </li>
+          </li>      
           <li class="portfolio-item">
             <a href="">
               <img
@@ -179,20 +179,19 @@
     <!--Подвал страницы-->
 
     <footer class="footer">
-      <a class="footer-logo" href="./index.html"><span class="footer-text-web">Web</span>Studio</a>
-      <address class="address">
-        <ul class="footer-contact">
-          <li>
-            <a
-              href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
-              class="footer-link-maps"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li><a href="mailto:info@devstudio" class="footer-link">info@devstudio</a></li>
-          <li><a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="container footer-container">
+        <a class="footer-logo" href="./index.html"><span class="footer-text-web">Web</span>Studio</a>
+        <address class="address">
+          <ul class="footer-contact">
+            <li class="footer-item">
+              <a href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
+                class="footer-link-maps">г. Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li class="footer-item"><a href="mailto:info@devstudio" class="footer-link">info@devstudio</a></li>
+            <li class="footer-item"><a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
